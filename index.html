@@ -41,20 +41,18 @@
       // Jangan ubah cara deklarasi fungsinya, cukup isi saja
       function fnClickHandler(toDoItem) {
         button.onclick = function (e) {
-          let li = document.createElement("li");
           let val = input.value;
-          console.log(val);
-          li.appendChild(document.createTextNode(val));
-          output.append(li);
+          let li = document.createElement("li");
+          li.innerText = val;
+          output.appendChild(li);
           input.value = "";
         };
 
         if (toDoItem.key === "Enter") {
-          let li = document.createElement("li");
           let val = input.value;
-          console.log(val);
-          li.appendChild(document.createTextNode(val));
-          output.append(li);
+          let li = document.createElement("li");
+          li.innerText = val;
+          output.appendChild(li);
           input.value = "";
         }
       }

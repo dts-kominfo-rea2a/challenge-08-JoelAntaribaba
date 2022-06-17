@@ -5,13 +5,12 @@ body {
   align-items: center;
   justify-content: center;
   font-size: large;
-  color: rgb(253, 247, 247);
+  color: rgb(0, 0, 0);
   font-family: "Courier New", Courier, monospace;
 }
 
 #app {
-  background: rgb(2, 0, 36);
-  background: linear-gradient(180deg, rgba(2, 0, 36, 1) 0%, rgba(0, 41, 255, 1) 100%);
+  background-color: honeydew;
   display: flex;
   flex-direction: column;
   box-shadow: 2px 2px 10px #444448;
@@ -41,4 +40,6 @@ body {
 
 #todo-output {
   text-align: left;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 30px;
 }

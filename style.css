@@ -21,6 +21,10 @@ body {
   height: fit-content;
 }
 
+#todo {
+  color: red;
+}
+
 #todo-input {
   height: 2em;
   text-align: center;
